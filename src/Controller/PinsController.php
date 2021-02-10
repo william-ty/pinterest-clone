@@ -13,6 +13,7 @@ class PinsController extends AbstractController
      */
     public function index(): Response
     {
-        return new Response('Hello World');
+        return $this->render('pins/index.html.twig');
     }
 }
+
